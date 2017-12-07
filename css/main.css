@@ -25,7 +25,7 @@ body {
 
 article {
   max-width: 43em;
-  padding: 0 1.3rem;
+  padding: 0 1rem;
 }
 
 article h1 {
@@ -76,10 +76,6 @@ blockquote {
     line-height: 1.4;
   }
 
-  article {
-    padding: 0 1.4rem;
-  }
-
   article header {
     margin: 0 0 1.4rem;
     padding: 1.4em 0 0;
@@ -123,10 +119,6 @@ blockquote {
     padding-bottom: 1.5rem;
   }
 
-  article {
-    padding: 0 1.5rem;
-  }
-
 }
 
 @media only screen and (min-width: 90em) {
@@ -143,9 +135,4 @@ blockquote {
   blockquote p {
     margin-left: 5em;
   }
-
-  article {
-    padding: 0 1.5rem;
-  }
-
 }
