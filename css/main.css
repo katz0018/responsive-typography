@@ -20,11 +20,12 @@ html {
 }
 
 body {
-  margin: .1rem 1rem 0;
+  margin: 0;
 }
 
 article {
   max-width: 43em;
+  padding: 0 1.3rem;
 }
 
 article h1 {
@@ -36,7 +37,7 @@ article h1 {
 article header {
   border-bottom: 1px solid #999;
   margin: 0 0 1.3rem;
-  padding: 1.2em 0 .1em;
+  padding: 1.3em 0 0;
 }
 
 article p {
@@ -53,7 +54,7 @@ article header p {
 
 article > p:last-child {
   border-bottom: 1px solid #999;
-  padding-bottom: 1.5em;
+  padding-bottom: 1.3rem;
 }
 
 blockquote {
@@ -68,13 +69,6 @@ blockquote {
   color: #999;
 }
 
-@media only screen and (min-width: 25em) {
-
-  p {
-    line-height: 1.4em;
-  }
-}
-
 @media only screen and (min-width: 38em) {
 
   html {
@@ -82,17 +76,25 @@ blockquote {
     line-height: 1.4;
   }
 
-  h1,
-  p {
-    margin: 0 0 1.4rem;
-  }
-
-  header h1 {
-    font-size: 1.6em;
+  article {
+    padding: 0 1.4rem;
   }
 
   article header {
-    padding: 1.5em 0 .5em;
+    margin: 0 0 1.4rem;
+    padding: 1.4em 0 0;
+  }
+
+  article p {
+    margin: 0 0 1.4rem;
+  }
+
+  article ol {
+    padding-left: 1.4em;
+  }
+
+  article > p:last-child {
+    padding-bottom: 1.4rem;
   }
 
 }
@@ -104,15 +106,27 @@ blockquote {
     line-height: 1.5;
   }
 
-  article h1 {
-    font-size: 1.9em;
+  article header {
     margin: 0 0 1.5rem;
+    padding: 1.5em 0 0;
   }
 
   article p {
-    font-size: 1.2em;
     margin: 0 0 1.5rem;
   }
+
+  article ol {
+    padding-left: 1.5em;
+  }
+
+  article > p:last-child {
+    padding-bottom: 1.5rem;
+  }
+
+  article {
+    padding: 0 1.5rem;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -122,20 +136,16 @@ blockquote {
     font-size: 130%;
   }
 
-  body {
-    margin-left: 0;
-  }
-
   article {
-    margin-right: 0;
     max-width: 53em;
-  }
-
-  ol li {
-    font-size: 1.3em;
   }
 
   blockquote p {
     margin-left: 5em;
   }
+
+  article {
+    padding: 0 1.5rem;
+  }
+
 }
