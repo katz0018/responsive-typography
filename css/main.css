@@ -12,15 +12,15 @@ html {
   text-size-adjust: 100%;
 
   color: #222;
-  font: normal 100%/1.3 'Crimson Text', serif;
-}
-
-body {
-  margin: 0 1.2em;
+  font: normal 100%/1.3 "Crimson Text", serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: .1rem 1rem 0;
 }
 
 article {
@@ -78,9 +78,15 @@ blockquote {
 @media only screen and (min-width: 38em) {
 
   html {
-    font-size: 100%;
+    font-size: 110%;
     line-height: 1.4;
   }
+
+  h1,
+  p {
+    margin: 0 0 1.4rem;
+  }
+
   header h1 {
     font-size: 1.6em;
   }
@@ -89,10 +95,6 @@ blockquote {
     padding: 1.5em 0 .5em;
   }
 
-  h1,
-  p {
-    margin: 0 0 1.4rem;
-  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -101,6 +103,7 @@ blockquote {
     font-size: 120%;
     line-height: 1.5;
   }
+
   article h1 {
     font-size: 1.9em;
     margin: 0 0 1.5rem;
