@@ -119,4 +119,11 @@ blockquote {
 
 @media only screen and (min-width: 90em) {
 
+  body {
+    margin-left: 19em;
+  }
+
+  ol li {
+    font-size: 4em;
+  }
 }
