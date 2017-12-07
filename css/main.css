@@ -30,19 +30,24 @@ article {
 article h1 {
   font-weight: normal;
   margin: 0;
-  line-height: 1.8em;
+  line-height: 1.4em;
+  font-size: 1.5em;
 }
 
 article header {
   border-bottom: 1px solid #999;
   margin: 0 0 1.3em;
-  line-height: .5em;
-  padding: 1em 0 .4em;
+  line-height: .3em;
+  padding: .9em 0 .1em;
 }
 
 article p {
-  margin: 0 0 1.3em;
+  margin: 0 0 1.2em;
   line-height: 1.3em;
+}
+
+article nth:nth-child(2) {
+  font-size: 1em;
 }
 
 article ol {
@@ -71,6 +76,7 @@ blockquote {
 }
 
 @media only screen and (min-width: 25em) {
+
   p {
     line-height: 1.4em;
   }
